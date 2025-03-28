@@ -53,6 +53,7 @@ class Terminal extends HTMLElement {
     });
 
     terminalInput.addEventListener("focus", () => {
+      inputView.textContent = terminalInput.value;
       terminalInput.setSelectionRange(
         terminalInput.value.length,
         terminalInput.value.length
@@ -62,6 +63,7 @@ class Terminal extends HTMLElement {
     });
 
     terminalInput.addEventListener("blur", () => {
+      inputView.textContent = terminalInput.value;
       endCursor.classList.remove("cursor");
       endCursor.textContent = "";
     });
