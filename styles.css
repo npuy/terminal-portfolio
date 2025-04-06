@@ -5,7 +5,7 @@ body {
 
 .root {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr) 2fr;
   grid-template-rows: repeat(2, 1fr);
   height: 100vh;
   width: 100vw;
@@ -25,7 +25,7 @@ terminal-component {
   overflow: scroll;
   scrollbar-width: none;
   font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
+  font-size: 18px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -86,4 +86,23 @@ input {
     color: #000;
     background-color: rgba(255, 255, 255, 0.87);
   }
+}
+
+.command {
+  color: rgb(128, 217, 50);
+}
+
+.user {
+  color: rgb(128, 217, 50);
+}
+
+.link {
+  color: rgb(194, 55, 254);
+  text-decoration: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(128, 217, 50);
 }
