@@ -128,7 +128,7 @@ class Terminal extends HTMLElement {
         contact.innerHTML = `
           You can reach me here:<br>
           &nbsp;&nbsp;&nbsp;&nbsp;📧 Email: <span id="email" class="link">nicolas.pp333@gmail.com</span><br>
-          &nbsp;&nbsp;&nbsp;&nbsp;💻 GitHub: <a class="link" href="https://github.com/Nicolass2001" target="_blank">Nicolass2001</a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;💻 GitHub: <a class="link" href="https://github.com/npuy" target="_blank">npuy</a><br>
           &nbsp;&nbsp;&nbsp;&nbsp;💼 LinkedIn: <a class="link" href="https://www.linkedin.com/in/nicolas-pereira-9b4b83259/" target="_blank">Nicolas Pereira</a>
         `;
         const email = contact.querySelector("#email");
